@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+:root {
+  --accent-light: rgb(112, 216, 178);
+  color: rgb(53, 53, 148);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  padding: 10px 0;
+  gap: 100px;
+  background-color: var(--accent-light);
+}
+a:hover {
+  color: blueviolet;
+}
+
+.logo {
+  margin: 0 100px;
+  padding: 20px 0;
+  font-size: 20px;
+  float: left;
+  text-decoration: none;
+}
+.menu {
+  padding: 0 10px;
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.menu-link {
+  padding: 0 20px;
+  background-color: rgb(0, 0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.text {
+  display: flex;
+  padding: 4em 0;
+  gap: 35px;
+}
+
+.inner-left {
+  margin: 0 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.inner-right {
+  width: 55%;
+}
+
+.section {
+  margin: 40px 0;
+}
+.main-text {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.menu-2 {
+  margin: 50px 280px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.menu-link2 {
+  list-style: none;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+}
+
+.section-skills {
+  height: 200px;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+  margin: 60px 0;
+  padding: 10px 0;
+}
+
+.skill {
+  padding: 15px 0;
+}
+.menu-skills {
+  padding: 10px 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.skills-li {
+  margin: 0 55px;
+  font-size: 16px;
+  list-style: none;
+}
+
+.skills-li {
+  background-color: silver;
+  border-radius: 5px;
+}
+
+.lorem {
+  text-align: center;
+}
+
+.code-example {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 5px 280px;
+  background-color: var(--accent-light);
+  border-radius: 8px;
+}
+
+.wrapper {
+  background-color: var(--accent-light);
+  margin: 50px 10px;
+}
+
+.menu-education {
+  display: flex;
+  gap: 35px;
+  margin: 30px 100px;
+}
+
+.link-education {
+  list-style: none;
+}
+
+.images-education {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.menu-education p {
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--accent-light);
+  margin-top: 80px;
+}
+
+.menu-footer {
+  padding: 5px 0;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.link-footer {
+  list-style: none;
+  text-align: center;
+}
+
+.instagram {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
